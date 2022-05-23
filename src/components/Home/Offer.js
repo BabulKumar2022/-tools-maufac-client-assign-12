@@ -4,7 +4,7 @@ import hammerdrill from '../../assets/images/hammer-drill-.jpg'
 const Offer = () => {
   return (
     <div>
-      <h1 className="text-center text-4xl text-primary my-10">Special Offer</h1>
+      <h1 className="text-center text-4xl text-primary mt-10">Special Offer</h1>
       <div className="">
         <div class="hero min-h-screen ">
           <div class="hero-content flex-col lg:flex-row">
