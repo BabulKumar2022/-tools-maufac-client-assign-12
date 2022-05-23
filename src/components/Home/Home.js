@@ -13,8 +13,9 @@ const Home = () => {
             <Services></Services>
             <Testimonials></Testimonials>
             <Offer></Offer>
-            <AdminUser></AdminUser>
             <Info></Info>
+            <AdminUser></AdminUser>
+           
         </div>
     );
 };

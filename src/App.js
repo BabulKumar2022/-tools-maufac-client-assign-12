@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 import Review from './components/Review/Review';
 import Login from './components/Login/Login';
 import Blogs from './components/Blogs/Blogs';
+import Tools from './components/Tools.js/Tools';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="home" element={<Home></Home>}></Route>
         <Route path="blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="tools" element={<Tools></Tools>}></Route>
+      
         <Route path="contact" element={<Contact></Contact>}></Route>
         <Route path="review" element={<Review></Review>}></Route>
         <Route path="about" element={<About></About>}></Route>

@@ -32,7 +32,7 @@ const Services = () => {
 
     return (
         <div className='my-20'>
-            <h1 className='text-center text-primary text-3xl'>Our Services</h1>
+            <h1 className='text-center text-primary text-3xl'>Our Tools</h1>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 ">
                 {
                     services.map(service =><Service

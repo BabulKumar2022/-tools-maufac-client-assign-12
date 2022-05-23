@@ -34,7 +34,7 @@ const Testimonials = () => {
     return (
         <div >
             <div className="">
-                 <h1 className="text-center text-3xl">Testimonials</h1>
+                 <h1 className="text-center text-3xl">Reviews</h1>
             </div >
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 

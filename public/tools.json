@@ -1,0 +1,112 @@
+[
+  {
+    "_id": 1,
+    "name": "Grass Cutter",
+    "model": [
+      "GT-3HP 1400RPM",
+      "GT-2HP 1400RPM",
+      "GT-1HP 1400RPM"
+    ],
+    "quantity":[
+      "2","3", "4"," 5"," 6"," 7"
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "circular saw",
+    "model": [
+      "CS-2HP 2800RPM",
+      "CS-1HP 2800RPM",
+      "CS-.5HP 2800RPM"
+  
+    ],
+    "quantity":[
+      "2","3", "4"," 5"," 6"," 7"
+    ]
+  },
+  {
+    "_id": 3,
+    "name": "Cordless Drill",
+    "model": [
+      "CD-300W 28RPM",
+      "CD-200W 28RPM",
+      "CD-400W 28RPM"
+      
+    ],
+    "quantity":[
+      "2","3", "4"," 5"," 6"," 7"
+    ]
+  },
+  {
+    "_id": 4,
+    "name": "Drill Bit",
+    "model": [
+      "DB-5INC Iron",
+      "DB-5INC Steel",
+      "DB-5INC Iron Cast"
+     
+    ],
+    "quantity":[
+      "2","3", "4"," 5"," 6"," 7"
+    ]
+  },
+  {
+    "_id": 5,
+    "name": "Soldering Iron",
+    "model": [
+      "SI-50Watt Heavy",
+      "SI-100Watt Heavy",
+      "SI-350Watt Heavy"
+    
+    ],
+    "quantity":[
+      "2","3", "4"," 5"," 6"," 7"
+    ]
+  },
+  {
+    "_id": 6,
+    "name": "Chain Saw",
+    "model": [
+      "CS-500W 2800RPM",
+      "CS-700W 2800RPM",
+      "CS-300W 2800RPM"
+    ],
+    "quantity":[
+      "2","3", "4"," 5"," 6"," 7"
+    ]
+  },
+  {
+    "_id": 7,
+    "name": "Chain Saw",
+    "model": [
+      
+    ],
+    "quantity":[
+      "2","3", "4"," 5"," 6"," 7"
+    ]
+  },
+  {
+    "_id": 8,
+    "name": "Chain Saw",
+    "model": [
+      "CS-500W 2800RPM",
+      "CS-700W 2800RPM",
+      "CS-300W 2800RPM"
+    ],
+    "quantity":[
+      "2","3", "4"," 5"," 6"," 7"
+    ]
+  },
+  {
+    "_id": 9,
+    "name": "Chain Saw",
+    "model": [
+      "CS-500W 2800RPM",
+      "CS-700W 2800RPM",
+      "CS-300W 2800RPM"
+    ],
+    "quantity":[
+      "2","3", "4"," 5"," 6"," 7"
+    ]
+  }
+]
