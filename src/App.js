@@ -10,6 +10,7 @@ import Review from './components/Review/Review';
 import Login from './components/Login/Login';
 import Blogs from './components/Blogs/Blogs';
 import Tools from './components/Tools.js/Tools';
+import SignUp from './components/Login/SignUp';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="review" element={<Review></Review>}></Route>
         <Route path="about" element={<About></About>}></Route>
         <Route path="login" element={<Login></Login>}></Route>
+        <Route path="signup" element={<SignUp></SignUp>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
