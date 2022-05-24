@@ -5,7 +5,7 @@ import Service from './Service';
 const AvailableTools = () => {
 
     const [services, setServices] = useState([]);
-    const [toolsItem, setToolsItem] = useState(null);
+    const [toolsItem, setToolsItem ,refetch] = useState(null);
 
 
 
@@ -30,6 +30,7 @@ const AvailableTools = () => {
             {toolsItem && <BookingModal 
             toolsItem={toolsItem}
             setToolsItem={setToolsItem}
+            refetch={refetch}
             ></BookingModal>}
         </div>
     );

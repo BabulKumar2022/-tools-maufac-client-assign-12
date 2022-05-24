@@ -3,7 +3,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { toast } from 'react-toastify';
 
-const BookingModal = ({toolsItem, setToolsItem}) => {
+const BookingModal = ({toolsItem, setToolsItem, refetch}) => {
     const{_id, name, model, quantity} =toolsItem;
     const [user, loading, error] =useAuthState(auth)
 
@@ -20,7 +20,7 @@ const handleBooking = event =>{
  const booking =  {
     toolsItemId: _id,
     toolsItem:name,
-    model,
+    model: model,
     email:user.email,
     buyerName:user.displayName,
     phone:event.target.phone.value
@@ -39,7 +39,7 @@ const handleBooking = event =>{
     if(data.success){
       toast(`Your  booking for ${name} completed successfully`)
     }
-
+     refetch()
     setToolsItem(null);
   })
 
