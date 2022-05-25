@@ -22,7 +22,7 @@ const useToken = user => {
                 setToken(accessToken)
                 
             })
-        }
+        } 
        
     }, [user]);
     return [token];

@@ -43,7 +43,7 @@ const SignUp = () => {
     await createUserWithEmailAndPassword(data.email, data.password);
     await updateProfile({ displayName: data.name });
     // console.log('Update is done');
-    navigate('/tools')
+    // navigate('/tools')
   };
     return (
         <div className="flex justify-center items-center h-screen">
@@ -163,3 +163,8 @@ const SignUp = () => {
 };
 
 export default SignUp;
+
+
+
+
+
