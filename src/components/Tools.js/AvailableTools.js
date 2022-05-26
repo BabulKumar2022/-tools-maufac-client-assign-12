@@ -5,7 +5,7 @@ import Service from './Service';
 const AvailableTools = () => {
 
     const [services, setServices] = useState([]);
-    const [toolsItem, setToolsItem ,refetch] = useState(null);
+    const [toolsItem, setToolsItem , refetch] = useState(null);
 
 
 
@@ -16,7 +16,7 @@ const AvailableTools = () => {
     },[])
     return (
         <div>
-            <h1 className='text-center text-4xl bg-primary my-5'>Available Tools</h1>
+            <h1 className='text-center text-4xl bg-primary my-5'>Available Tools: </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {
                     services.map(service =><Service

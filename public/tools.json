@@ -1,112 +1,56 @@
 [
   {
-    "_id": 1,
     "name": "Grass Cutter",
-    "model": [
-      "GT-3HP 1400RPM",
-      "GT-2HP 1400RPM",
-      "GT-1HP 1400RPM"
-    ],
-    "quantity":[
-      "2","3", "4"," 5"," 6"," 7"
-    ]
+    "model": "GT-3HP 1400RPM",
+    "price":"200",
+    "photo": "https://i.ibb.co/86X66X8/angle-grinder.jpg"
   },
   {
-    "_id": 2,
     "name": "circular saw",
-    "model": [
-      "CS-2HP 2800RPM",
-      "CS-1HP 2800RPM",
-      "CS-.5HP 2800RPM"
-  
-    ],
-    "quantity":[
-      "2","3", "4"," 5"," 6"," 7"
-    ]
+    "model":  "CS-2HP 2800RPM",
+    "price":"1002",
+    "photo": "https://i.ibb.co/YcH2Rv9/circular-saw.jpg"
   },
   {
-    "_id": 3,
     "name": "Cordless Drill",
-    "model": [
-      "CD-300W 28RPM",
-      "CD-200W 28RPM",
-      "CD-400W 28RPM"
-      
-    ],
-    "quantity":[
-      "2","3", "4"," 5"," 6"," 7"
-    ]
+    "model":  "CD-300W 28RPM",
+    "price":"2652",
+    "photo": "https://i.ibb.co/wWv4DMV/color-drill.jpg"
   },
   {
-    "_id": 4,
-    "name": "Drill Bit",
-    "model": [
-      "DB-5INC Iron",
-      "DB-5INC Steel",
-      "DB-5INC Iron Cast"
-     
-    ],
-    "quantity":[
-      "2","3", "4"," 5"," 6"," 7"
-    ]
+    "name": "Drill machine",
+    "model": "DB-5INC Iron",
+    "price":"255",
+    "photo" : "https://i.ibb.co/1X35FWQ/cordless-drill.jpg"
   },
   {
-    "_id": 5,
-    "name": "Soldering Iron",
-    "model": [
-      "SI-50Watt Heavy",
-      "SI-100Watt Heavy",
-      "SI-350Watt Heavy"
-    
-    ],
-    "quantity":[
-      "2","3", "4"," 5"," 6"," 7"
-    ]
+    "name": "Cord less drill",
+    "model": "SI-50Watt Heavy",
+    "price":"600",
+    "photo": "https://i.ibb.co/h9zvp6g/cordless-drill-2.jpg"
   },
   {
-    "_id": 6,
-    "name": "Chain Saw",
-    "model": [
-      "CS-500W 2800RPM",
-      "CS-700W 2800RPM",
-      "CS-300W 2800RPM"
-    ],
-    "quantity":[
-      "2","3", "4"," 5"," 6"," 7"
-    ]
+    "name": "Chain Drill",
+    "model":  "CS-500W 2800RPM",
+    "price":"500",
+    "photo": "https://i.ibb.co/p3yCH5q/cutter-iron.jpg"
   },
   {
-    "_id": 7,
-    "name": "Chain Saw",
-    "model": [
-      
-    ],
-    "quantity":[
-      "2","3", "4"," 5"," 6"," 7"
-    ]
+    "name": "Chain Drill-5",
+    "model":  "CS-500W 2800RPM",
+    "price":"222",
+    "photo": "https://i.ibb.co/PTm4yRf/drill-1.jpg"
   },
   {
-    "_id": 8,
-    "name": "Chain Saw",
-    "model": [
-      "CS-500W 2800RPM",
-      "CS-700W 2800RPM",
-      "CS-300W 2800RPM"
-    ],
-    "quantity":[
-      "2","3", "4"," 5"," 6"," 7"
-    ]
+    "name": "Chain Drill",
+    "model":  "CS-500W 2800RPM",
+    "price":"222",
+    "photo": "https://i.ibb.co/KGzFxrD/hevy-drill.jpg"
   },
   {
-    "_id": 9,
-    "name": "Chain Saw",
-    "model": [
-      "CS-500W 2800RPM",
-      "CS-700W 2800RPM",
-      "CS-300W 2800RPM"
-    ],
-    "quantity":[
-      "2","3", "4"," 5"," 6"," 7"
-    ]
+    "name": "Chain Drill-5",
+    "model":"CS-500W 2800RPM",
+    "price":"222",
+    "photo": "https://i.ibb.co/JF9hkTF/impact-drill-2.jpg"
   }
 ]

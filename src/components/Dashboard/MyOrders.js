@@ -8,7 +8,7 @@ const MyOrders = () => {
 
     useEffect(() =>{
         if(user){
-            fetch(`http://localhost:5000/booking?buyerName=${user.email}`)
+            fetch(`http://localhost:5000/booking?buyer=${user.email}`)
             .then(res=> res.json())
             .then(data => setOrders(data));
         }
