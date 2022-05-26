@@ -6,20 +6,23 @@ const About = () => {
   return (
     <div className=" flex justify-center">
       <div className="">
-        <div class="card w-96 bg-base-100 shadow-xl ">
-          <figure class="px-10 pt-10">
-            <img src={about} alt="Shoes" class="rounded-xl" />
+        <div className="card w-96 bg-base-100 shadow-xl ">
+          <figure className="px-10 pt-10">
+            <img src={about} alt="Shoes" className="rounded-xl" />
           </figure>
-          <div class="card-body items-center text-center">
-            <h2 class="card-title">Babul Kumar</h2>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">Babul Kumar</h2>
             <p>Bss(Hons), MSS in Economics</p>
             <p>
               {" "}
               I am a professional laptop distributor. I distribute all kinds of
               laptop more....
             </p>
-            <div class="card-actions">
-            <Link to="/home">  <button class="btn btn-primary">Home</button></Link>
+            <div className="card-actions">
+              <Link to="/home">
+                {" "}
+                <button className="btn btn-primary">Home</button>
+              </Link>
             </div>
           </div>
         </div>

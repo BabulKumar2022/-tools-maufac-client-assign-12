@@ -4,7 +4,7 @@ import { useQuery } from "react-query";
 import { toast } from "react-toastify";
 import Loading from "../Shared/Loading";
 
-const AddDoctor = () => {
+const UserProfile = () => {
   const {
     register,
     formState: { errors },
@@ -21,13 +21,13 @@ const AddDoctor = () => {
   const imageStorageKey = "ff3959ebaddb1de4772fe14cc642c870";
 
   /* 
-   3 ways to image storage 
-   01 Third party storage as imageBB
-   02 won storage , won server
-   03 Database: Mongodb
-
-    YUP :  to validate file: Yup file validate for react hook form
-   */
+       3 ways to image storage 
+       01 Third party storage as imageBB
+       02 won storage , won server
+       03 Database: Mongodb
+    
+        YUP :  to validate file: Yup file validate for react hook form
+       */
 
   const onSubmit = async (data) => {
     console.log("data", data);
@@ -74,19 +74,19 @@ const AddDoctor = () => {
   }
   return (
     <div className="">
-      <h2>Add a Product </h2>
+      <h2 className="text-purple-400 text-3xl">Create your profile </h2>
 
       <div className=" ">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="form-control w-full max-w-xs">
             <label className="label">
-              <span className="label-text-alt">Name</span>
+              <span className="label-text-alt">First name</span>
             </label>
             <input
               type="name"
-              placeholder="name"
+              placeholder="first name"
               className="input input-bordered w-full max-w-xs"
-              {...register("name", {
+              {...register("first name", {
                 required: {
                   value: true,
                   message: "Name is required",
@@ -94,19 +94,35 @@ const AddDoctor = () => {
               })}
             />
           </div>
-
           <div className="form-control w-full max-w-xs">
             <label className="label">
-              <span className="label-text-alt">Model</span>
+              <span className="label-text-alt">Last name</span>
             </label>
             <input
               type="name"
-              placeholder="model name"
+              placeholder="last name"
+              className="input input-bordered w-full max-w-xs"
+              {...register("last name", {
+                required: {
+                  value: true,
+                  message: "last is required",
+                },
+              })}
+            />
+          </div>
+
+          <div className="form-control w-full max-w-xs">
+            <label className="label">
+              <span className="label-text-alt">Education</span>
+            </label>
+            <input
+              type="text"
+              placeholder="education"
               className="input input-bordered w-full max-w-xs"
               {...register("model", {
                 required: {
                   value: true,
-                  message: "Name is required",
+                  message: "education is required",
                 },
               })}
             />
@@ -114,16 +130,32 @@ const AddDoctor = () => {
 
           <div className="form-control w-full max-w-xs">
             <label className="label">
-              <span className="label-text-alt">Price</span>
+              <span className="label-text-alt">Location</span>
             </label>
             <input
               type="text"
-              placeholder="Price"
+              placeholder="location"
               className="input input-bordered w-full max-w-xs"
-              {...register("price", {
+              {...register("location", {
                 required: {
                   value: true,
-                  message: "Price is required",
+                  message: "location is required",
+                },
+              })}
+            />
+          </div>
+          <div className="form-control w-full max-w-xs">
+            <label className="label">
+              <span className="label-text-alt">Telephone No</span>
+            </label>
+            <input
+              type="text"
+              placeholder="phone"
+              className="input input-bordered w-full max-w-xs"
+              {...register("phone", {
+                required: {
+                  value: true,
+                  message: "phone is required",
                 },
               })}
             />
@@ -131,7 +163,7 @@ const AddDoctor = () => {
 
           <div className="form-control w-full max-w-xs">
             <label className="label">
-              <span className="label-text-alt">Photo</span>
+              <span className="label-text-alt">Profile Picture</span>
             </label>
             <input
               type="file"
@@ -154,12 +186,11 @@ const AddDoctor = () => {
           <input
             className="btn w-full max-w-xs text-white"
             type="submit"
-            value="Add Product"
+            value="Submit"
           />
         </form>
       </div>
     </div>
   );
 };
-
-export default AddDoctor;
+export default UserProfile;

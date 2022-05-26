@@ -20,6 +20,8 @@ import Users from './components/Dashboard/Users';
 import AddProduct from './components/Dashboard/AddProduct';
 import NotFound from './components/NonFound/NotFound';
 import MyOrders from './components/Dashboard/MyOrders';
+import ManageProduct from './components/Dashboard/ManageProduct';
+import UserProfile from './components/Dashboard/UserProfile';
 
 function App() {
   return (
@@ -41,8 +43,10 @@ function App() {
 
           <Route index element={<MyOrders></MyOrders>}></Route>
           <Route path="myReview" element={<MyReview></MyReview>}></Route>
+          <Route path="userProfile" element={<UserProfile></UserProfile>}></Route>
           <Route path="users" element={<Users></Users>}></Route>
           <Route path="addProduct" element={<AddProduct></AddProduct>}></Route>
+          <Route path="manageProduct" element={<ManageProduct></ManageProduct>}></Route>
 
         </Route>
         <Route path="contact" element={<Contact></Contact>}></Route>

@@ -1,8 +1,38 @@
-# Getting Started with Create React App
+## This is my tools manufacture company web site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was tailwind css with [Create React App](https://tools-trade-16920.web.app/).
 
-## Available Scripts
+## Usages apps
+   * react-dom
+   * firebase
+   * react
+   * react-dom
+   * react-firebase-hooks
+   * react-hook-form
+   * react-query
+   * react-router-dom
+   * react-toastify
+
+
+ ## Introduction
+ * Home
+ * Blog
+ * Purchase
+ * Contact
+ * About
+ * Login/Logout
+ * Dashboard
+
+ ## Dashboard
+ * My orders
+ * User Profile
+ * Review
+ * Add product
+ * Manage product
+ * delete product
+ * Admin
+ * All users
+
 
 In the project directory, you can run:
 
